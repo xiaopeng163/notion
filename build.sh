@@ -1,0 +1,1 @@
+docker run -it --rm -v ${pwd}:/omd quay.io/oh-my-docker/sphinx sh -c "pip install sphinx_rtd_theme; make html"
